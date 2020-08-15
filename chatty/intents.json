@@ -1,0 +1,39 @@
+{"intents":
+[
+        {"tag": "greeting",
+         "patterns": ["Hi", "Hello", "Good day", "Whats up", "Wassup", "Greetings", "Hey"],
+         "responses": ["Hello!", "Good to see you!", "Hi there.","Hey"],
+         "context_set": ""
+        },
+        {"tag": "yesno",
+         "patterns": ["Do you","Have you","Is she","Is this","Does that","Did you","Were they","Have they","Had they","Could you","Should I","Do you","Did you","Has the","Should have","Is the","Was she","Have you","Do you have","Have you got","Can I","right","Will they"],
+         "responses": ["yes","no"],
+         "context_set": ""
+        },
+        {"tag": "notyesno",
+         "patterns": ["i","me","we","us","you","she","her","he","him","it","they","them"],
+         "responses": ["Huh?"],
+         "context_set": ""
+        },
+        {"tag": "food",
+         "patterns": ["lunch", "Whats for lunch", "food", "What should we order", "Choose some food","to eat","What am I eating","we eat"],
+         "responses": ["Let us get food", "FOOD!"],
+         "context_set": ""
+        },
+        {"tag": "thanks",
+         "patterns": ["Thank You", "Thanks", "Appreciated", "praise", "gratitude"],
+         "responses": ["no problem!"],
+         "context_set": ""
+        },
+        {"tag": "add",
+         "patterns": ["Add to the irl list","Include to the list","Add in", "Add"],
+         "responses": ["_add_to_list_"],
+         "context_set": ""
+        },
+        {"tag": "help",
+         "patterns": ["Add to the irl list","Include to the list","Add in", "Add"],
+         "responses": ["help"],
+         "context_set": ""
+        }
+]
+}
