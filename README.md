@@ -14,3 +14,6 @@ Includes basic functionality of the game and ASCII art to show game state.
 
 ### Merge Sort Algo (C++)
 Simple merge sort alogorithm
+
+### Socket HTTP Server (Python)
+Using socket programming, a server that displays and servers files from the host's directory. 
