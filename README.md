@@ -17,3 +17,7 @@ Simple merge sort alogorithm
 
 ### Socket HTTP Server (Python)
 Using socket programming, a server that displays and servers files from the host's directory. 
+
+### Twitch Alert (Python)
+Send an alert to a specified discord channel when a twitch channel is currently live
+Utlizes twitch api helix. 
