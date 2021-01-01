@@ -1,4 +1,4 @@
-# Small-Python-Projects
+# Small-Projects
 Smaller projects and some reference material
 
 ### Chatty (Python)
